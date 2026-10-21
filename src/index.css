@@ -43,3 +43,12 @@ a, a:hover {
 .mt20 {
     margin-top: 20px;
 }
+
+.dblock {
+    display: block;
+    margin: 1rem 0;
+}
+
+.nav-bold {
+    font-weight: 700;
+}
