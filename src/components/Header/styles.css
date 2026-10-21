@@ -1,0 +1,23 @@
+header {
+    height: 70px;
+    background-color: var(--color-bg-secondary);
+    color: var(--color-font-secondary);
+    display: flex;
+    align-items: center;
+}
+
+.home-logo {
+    width: 30px;
+    height: auto;
+}
+
+.header-content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+}

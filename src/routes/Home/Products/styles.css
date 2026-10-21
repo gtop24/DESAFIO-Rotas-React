@@ -1,4 +1,4 @@
-nav {
+.products-navbar {
     background-color: var(--color-bg-tertiary);
     min-height: 60px;
     gap: 20px;

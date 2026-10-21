@@ -16,13 +16,14 @@ function App() {
         <Route index element={<Navigate to="home" />} />
         <Route path="home" element={<HomeBody />} />
         <Route path="products/" element={<Products />} >
+          <Route index element={<Navigate to="computers" />} />
           <Route path="computers" element={<Computers />} />
           <Route path="eletronics" element={<Eletronics />} />
           <Route path="books" element={<Books />} />
         </Route>
         <Route path="about" element={<About />} />
+        <Route path="*" element={<NotFound />} />
       </Route>
-      <Route path="*" element={<NotFound />} />
     </Routes>
   </BrowserRouter>
   );
