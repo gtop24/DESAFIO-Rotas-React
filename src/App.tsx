@@ -1,6 +1,8 @@
+import HomeBody from "./routes/Home/HomeBody";
+
 function App() {
   return (
-   <h1>Olá</h1>
+   <HomeBody />
   );
 }
 
